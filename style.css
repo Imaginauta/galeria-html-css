@@ -47,7 +47,7 @@ svg {
 .contenedor-galeria {
   display: grid;
   place-items: center;
-  width: 150px;
+  width: 300px;
 }
 
 .galeria {
@@ -62,7 +62,7 @@ svg {
   left: 0;
   width: 80px;
   border-radius: 5px;
-  height: 150px;
+  height: 450px;
   overflow: hidden;
   background-color: #efefef;
   transition: 0.4s ease-in-out;
@@ -71,8 +71,8 @@ svg {
 }
 
 .contenedor-imagen img {
-  height: 150px;
-  width: 100px;
+  height: 450px;
+  width: 100%;
   object-fit: cover;
 }
 
